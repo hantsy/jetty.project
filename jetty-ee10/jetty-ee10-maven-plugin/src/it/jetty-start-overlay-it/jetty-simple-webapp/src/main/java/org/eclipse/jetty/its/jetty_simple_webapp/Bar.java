@@ -11,7 +11,8 @@
 // ========================================================================
 //
 
-[[http2]]
-== HTTP/2
+package org.eclipse.jetty.its.jetty_simple_webapp;
 
-include::configuring-push.adoc[]
+public class Bar
+{
+}

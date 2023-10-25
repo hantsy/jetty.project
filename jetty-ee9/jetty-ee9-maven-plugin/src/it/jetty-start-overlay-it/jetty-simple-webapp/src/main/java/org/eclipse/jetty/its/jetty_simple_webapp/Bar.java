@@ -11,8 +11,8 @@
 // ========================================================================
 //
 
-[[fastcgi]]
-== FastCGI Support
+package org.eclipse.jetty.its.jetty_simple_webapp;
 
-include::fastcgi-intro.adoc[]
-include::configuring-fastcgi.adoc[]
+public class Bar
+{
+}
