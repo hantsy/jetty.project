@@ -1,0 +1,1490 @@
+repo_name: hantsy/jetty.project
+report_id: dd9cba4dbb9150f3472bd22301792b3e
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:27:12+00:00'
+requested_by: sbordet
+provider: github
+branch: jetty-10.0.x
+detected_tools_count: 122
+tools:
+- name: Asciidoctor
+  description: An open source, pure Ruby processor for converting AsciiDoc documents
+    or strings into HTML and other formats
+  website_url: https://asciidoctor.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2924/gvQpykZd_400x400.jpg
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/documentation/jetty-asciidoctor-extensions/pom.xml
+  detection_source: documentation/jetty-asciidoctor-extensions/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2022-12-07 13:51:59.000000000 Z
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/hantsy/jetty.project
+  detection_source: Repo Metadata
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source_url: https://github.com/hantsy/jetty.project
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/hantsy/jetty.project
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/hantsy/jetty.project
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/tests/test-loginservice/src/test/resources/createdb.sql
+  detection_source: tests/test-loginservice/src/test/resources/createdb.sql
+  last_updated_by: Michael Gorovoy
+  last_updated_on: 2010-05-29 18:14:52.000000000 Z
+- name: Google Cloud Datastore
+  description: A Fully Managed NoSQL Data Storage Service
+  website_url: https://cloud.google.com/datastore/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: NoSQL Database as a Service
+  image_url: https://img.stackshare.io/service/2754/google_cloud_datastore.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-gcloud/jetty-gcloud-session-manager/pom.xml
+  detection_source: jetty-gcloud/jetty-gcloud-session-manager/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-05-06 21:24:40.000000000 Z
+- name: Hazelcast
+  description: Clustering and highly scalable data distribution platform for Java
+  website_url: http://hazelcast.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/2024/default_000f7e56d4be68acfa58a6ea8bd40e65a10e04ff.jpg
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-hazelcast/pom.xml
+  detection_source: jetty-hazelcast/pom.xml
+  last_updated_by: olivier lamy
+  last_updated_on: 2017-05-29 11:42:54.000000000 Z
+- name: MariaDB
+  description: An enhanced, drop-in replacement for MySQL
+  website_url: https://mariadb.com/
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1615/mariadb-logo-400x400.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/tests/test-distribution/pom.xml
+  detection_source: tests/test-distribution/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2021-08-06 02:07:09.000000000 Z
+- name: Memcached
+  description: High-performance, distributed memory object caching system
+  website_url: http://memcached.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1040/hDNnpa4a_400x400.jpg
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-memcached/jetty-memcached-sessions/pom.xml
+  detection_source: jetty-memcached/jetty-memcached-sessions/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2021-09-20 11:15:50.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-nosql/pom.xml
+  detection_source: jetty-nosql/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2021-09-20 11:15:50.000000000 Z
+- name: Eclipse
+  description: IDE for Java EE Developers
+  website_url: https://www.eclipse.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1446/8cyY6D_m.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/apache-jstl/pom.xml
+  detection_source: apache-jstl/pom.xml
+  last_updated_by: Greg Wilkins
+  last_updated_on: 2019-06-24 15:42:39.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hantsy/jetty.project
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/.github/workflows/codeql-analysis.yml
+  detection_source: ".github/workflows/codeql-analysis.yml"
+  last_updated_by: Varun Sharma
+  last_updated_on: 2022-08-31 22:50:47.000000000 Z
+- name: JBoss
+  description: An open source Java EE-based application server
+  website_url: https://developers.redhat.com/products/eap
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/2188/unnamed.jpg
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-home/pom.xml
+  detection_source: jetty-home/pom.xml
+  last_updated_by: Jesse McConnell
+  last_updated_on: 2016-06-07 20:42:10.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jaas/pom.xml
+  detection_source: jetty-jaas/pom.xml
+  last_updated_by: Jan Bartel
+  last_updated_on: 2012-10-29 07:21:37.000000000 Z
+- name: Jetty
+  description: An open-source project providing an HTTP server, HTTP client, and javax.servlet
+    container
+  website_url: http://www.eclipse.org/jetty/
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1084/default_392a491b5c8bff92ffa39468611ad8f9c0ff1939.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-deploy/src/test/resources/jetty.xml
+  detection_source: jetty-deploy/src/test/resources/jetty.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2023-07-14 17:38:45.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-home/pom.xml
+  detection_source: jetty-home/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2021-09-14 05:31:55.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-home/pom.xml
+  detection_source: jetty-home/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2021-09-14 05:31:55.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/apache-jsp/pom.xml
+  detection_source: apache-jsp/pom.xml
+  last_updated_by: Greg Wilkins
+  last_updated_on: 2014-03-14 05:54:03.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/hantsy/jetty.project
+  detection_source: Repo Metadata
+- name: XSLT
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XSLT
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source_url: https://github.com/hantsy/jetty.project
+  detection_source: Repo Metadata
+- name: biz.aQute.bnd:biz.aQute.bndlib
+  description: A Swiss Army Knife for OSGi
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/test-jetty-osgi/pom.xml
+  detection_source: jetty-osgi/test-jetty-osgi/pom.xml
+  last_updated_by: olivier lamy
+  last_updated_on: 2020-12-07 11:14:59.000000000 Z
+- name: ch.qos.logback:logback-core
+  description: Logback-core module
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-home/pom.xml
+  detection_source: jetty-home/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2021-09-14 05:31:55.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-maven-plugin/src/it/jetty-start-distro-mojo-it/jetty-simple-base/pom.xml
+  detection_source: jetty-maven-plugin/src/it/jetty-start-distro-mojo-it/jetty-simple-base/pom.xml
+  last_updated_by: Jan Bartel
+  last_updated_on: 2017-08-15 06:35:17.000000000 Z
+- name: com.github.jnr:jnr-unixsocket
+  description: Native I/O access for java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-unixsocket/jetty-unixsocket-common/pom.xml
+  detection_source: jetty-unixsocket/jetty-unixsocket-common/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2020-10-08 19:04:28.000000000 Z
+- name: com.google.cloud:google-cloud-datastore
+  description: Java idiomatic client for Google Cloud Datastore
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-gcloud/jetty-gcloud-session-manager/pom.xml
+  detection_source: jetty-gcloud/jetty-gcloud-session-manager/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-05-06 21:24:40.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-infinispan/infinispan-remote-query/pom.xml
+  detection_source: jetty-infinispan/infinispan-remote-query/pom.xml
+  last_updated_by: Jan Bartel
+  last_updated_on: 2021-09-21 01:16:50.000000000 Z
+- name: com.google.gwt:gwt-dev
+  license: Unicode-TOU
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-maven-plugin/src/it/jetty-start-gwt-it/beer-client/pom.xml
+  detection_source: jetty-maven-plugin/src/it/jetty-start-gwt-it/beer-client/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2018-05-05 00:03:56.000000000 Z
+- name: com.google.gwt:gwt-servlet
+  license: Unicode-TOU
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-maven-plugin/src/it/jetty-start-gwt-it/beer-server/pom.xml
+  detection_source: jetty-maven-plugin/src/it/jetty-start-gwt-it/beer-server/pom.xml
+  last_updated_by: Simone Bordet
+  last_updated_on: 2018-11-29 15:51:29.000000000 Z
+- name: com.google.gwt:gwt-user
+  license: Unicode-TOU
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-maven-plugin/src/it/jetty-start-gwt-it/beer-client/pom.xml
+  detection_source: jetty-maven-plugin/src/it/jetty-start-gwt-it/beer-client/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2018-05-05 00:03:56.000000000 Z
+- name: com.googlecode.json-simple:json-simple
+  description: A simple Java toolkit for JSON
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/tests/test-websocket-autobahn/pom.xml
+  detection_source: tests/test-websocket-autobahn/pom.xml
+  last_updated_by: Jan Bartel
+  last_updated_on: 2023-06-29 10:56:36.000000000 Z
+- name: com.googlecode.xmemcached:xmemcached
+  description: Extreme performance modern memcached client for java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-memcached/jetty-memcached-sessions/pom.xml
+  detection_source: jetty-memcached/jetty-memcached-sessions/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2021-09-20 11:15:50.000000000 Z
+- name: com.hazelcast:hazelcast
+  description: Core Hazelcast Module
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-hazelcast/pom.xml
+  detection_source: jetty-hazelcast/pom.xml
+  last_updated_by: olivier lamy
+  last_updated_on: 2017-05-29 11:42:54.000000000 Z
+- name: com.openpojo:openpojo
+  description: This project was born out of a need to validate all POJOs
+  license: LGPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jmx/pom.xml
+  detection_source: jetty-jmx/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2020-02-18 16:40:20.000000000 Z
+- name: com.sun.xml.ws:jaxws-rt
+  description: 'Open source Reference Implementation of JSR-224: Java API for XML
+    Web Services'
+  license: NetCDF
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-http-spi/pom.xml
+  detection_source: jetty-http-spi/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2021-09-22 15:41:30.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-maven-plugin/src/it/jetty-start-distro-mojo-it/jetty-simple-base/pom.xml
+  detection_source: jetty-maven-plugin/src/it/jetty-start-distro-mojo-it/jetty-simple-base/pom.xml
+  last_updated_by: Jan Bartel
+  last_updated_on: 2017-08-15 06:35:17.000000000 Z
+- name: javax.servlet:javax.servlet-api
+  description: Java.net - The Source for Java Technology Collaboration
+  version: 3.1.0
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-maven-plugin/src/it/exclude-javax-annotation/pom.xml
+  detection_source: jetty-maven-plugin/src/it/exclude-javax-annotation/pom.xml
+  last_updated_by: Jan Bartel
+  last_updated_on: 2022-03-28 11:41:36.000000000 Z
+- name: net.minidev:json-smart
+  description: JSON
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-client/pom.xml
+  detection_source: jetty-client/pom.xml
+  last_updated_by: olivier lamy
+  last_updated_on: 2019-11-26 21:04:57.000000000 Z
+- name: org.apache.ant:ant
+  description: Master POM
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-ant/pom.xml
+  detection_source: jetty-ant/pom.xml
+  last_updated_by: Jan Bartel
+  last_updated_on: 2021-06-22 22:32:21.000000000 Z
+- name: org.apache.ant:ant-launcher
+  description: Master POM
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-ant/pom.xml
+  detection_source: jetty-ant/pom.xml
+  last_updated_by: Jan Bartel
+  last_updated_on: 2021-06-22 22:32:21.000000000 Z
+- name: org.apache.directory.api:api-asn1-api
+  description: ASN.1 API
+  version: 2.1.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jaas/pom.xml
+  detection_source: jetty-jaas/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-12 17:17:15.000000000 Z
+- name: org.apache.directory.api:api-util
+  description: Utilities shared across this top level project
+  version: 2.1.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jaas/pom.xml
+  detection_source: jetty-jaas/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-12 17:17:15.000000000 Z
+- name: org.apache.directory.server:apacheds-core-integ
+  description: Integration testing framework for Apache Directory Server
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jaas/pom.xml
+  detection_source: jetty-jaas/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-12 17:17:15.000000000 Z
+- name: org.apache.directory.server:apacheds-server-integ
+  description: Integration testing framework for Apache Directory Server
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jaas/pom.xml
+  detection_source: jetty-jaas/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-12 17:17:15.000000000 Z
+- name: org.apache.felix:org.apache.felix.framework
+  description: Apache Felix is a community effort to implement the OSGi Framework
+    and Service platform and other interesting OSGi-related technologies
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/tests/test-webapps/test-felix-webapp/pom.xml
+  detection_source: tests/test-webapps/test-felix-webapp/pom.xml
+  last_updated_by: Greg Wilkins
+  last_updated_on: 2019-06-24 15:42:39.000000000 Z
+- name: org.apache.logging.log4j:log4j-api
+  description: The Apache Log4j API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-home/pom.xml
+  detection_source: jetty-home/pom.xml
+  last_updated_by: Lachlan Roberts
+  last_updated_on: 2023-05-05 06:41:27.000000000 Z
+- name: org.apache.maven.plugin-tools:maven-plugin-annotations
+  description: Java 5 annotations to use in Mojos
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jspc-maven-plugin/pom.xml
+  detection_source: jetty-jspc-maven-plugin/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2022-02-25 03:23:21.000000000 Z
+- name: org.apache.maven.plugin-tools:maven-plugin-tools-api
+  description: The Maven Plugin Tools Extractor API provides an API to extract descriptor
+    information from Maven Plugins
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jspc-maven-plugin/pom.xml
+  detection_source: jetty-jspc-maven-plugin/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2022-02-25 03:23:21.000000000 Z
+- name: org.apache.maven.resolver:maven-resolver-connector-basic
+  description: A repository connector implementation for repositories using URI-based
+    layouts
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/tests/jetty-home-tester/pom.xml
+  detection_source: tests/jetty-home-tester/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2022-11-16 02:55:34.000000000 Z
+- name: org.apache.maven:maven-artifact
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jspc-maven-plugin/pom.xml
+  detection_source: jetty-jspc-maven-plugin/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2022-02-25 03:23:21.000000000 Z
+- name: org.apache.maven:maven-core
+  description: Maven Core classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jspc-maven-plugin/pom.xml
+  detection_source: jetty-jspc-maven-plugin/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2022-02-25 03:23:21.000000000 Z
+- name: org.apache.maven:maven-model
+  description: Model for Maven POM
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jspc-maven-plugin/pom.xml
+  detection_source: jetty-jspc-maven-plugin/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2022-02-25 03:23:21.000000000 Z
+- name: org.apache.maven:maven-plugin-api
+  description: The API for plugins - Mojos - development
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jspc-maven-plugin/pom.xml
+  detection_source: jetty-jspc-maven-plugin/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2022-02-25 03:23:21.000000000 Z
+- name: org.apache.maven:maven-settings
+  description: Maven Settings model
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jspc-maven-plugin/pom.xml
+  detection_source: jetty-jspc-maven-plugin/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2022-02-25 03:23:21.000000000 Z
+- name: org.apache.taglibs:taglibs-standard-spec
+  description: An implementation of the JSP Standard Tag Library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/apache-jstl/pom.xml
+  detection_source: apache-jstl/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2020-11-18 11:26:38.000000000 Z
+- name: org.asciidoctor:asciidoctorj
+  description: AsciidoctorJ provides Java bindings for the Asciidoctor RubyGem
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/documentation/jetty-asciidoctor-extensions/pom.xml
+  detection_source: documentation/jetty-asciidoctor-extensions/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2022-12-07 13:51:59.000000000 Z
+- name: org.awaitility:awaitility
+  description: A Java DSL for synchronizing asynchronous operations
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-client/pom.xml
+  detection_source: jetty-client/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-02 04:15:39.000000000 Z
+- name: org.codehaus.plexus:plexus-utils
+  description: A collection of various utility classes to ease working with strings
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-maven-plugin/pom.xml
+  detection_source: jetty-maven-plugin/pom.xml
+  last_updated_by: Jan Bartel
+  last_updated_on: 2023-06-29 10:56:36.000000000 Z
+- name: org.eclipse.jetty.http2:http2-server
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/demos/demo-proxy-webapp/pom.xml
+  detection_source: demos/demo-proxy-webapp/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2021-09-22 14:54:52.000000000 Z
+- name: org.eclipse.jetty.orbit:javax.servlet.jsp.jstl
+  description: This artifact originates from the Orbit Project at Eclipse
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/test-jetty-osgi/pom.xml
+  detection_source: jetty-osgi/test-jetty-osgi/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2023-09-03 11:10:41.000000000 Z
+- name: org.eclipse.jetty.websocket:websocket-servlet
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/demos/embedded/pom.xml
+  detection_source: demos/embedded/pom.xml
+  last_updated_by: Lachlan
+  last_updated_on: 2020-12-02 00:10:15.000000000 Z
+- name: org.eclipse.jetty:apache-jsp
+  description: The Eclipse Jetty Project
+  version: 10.0.18
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jspc-maven-plugin/pom.xml
+  detection_source: apache-jstl/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2020-11-18 11:26:38.000000000 Z
+- name: org.eclipse.jetty:apache-jstl
+  description: The Eclipse Jetty Project
+  version: 10.0.18
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jspc-maven-plugin/pom.xml
+  detection_source: demos/embedded/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2020-09-29 16:37:22.000000000 Z
+- name: org.eclipse.jetty:jetty-alpn-client
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/javadoc/pom.xml
+  detection_source: javadoc/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2022-11-16 21:37:09.000000000 Z
+- name: org.eclipse.jetty:jetty-alpn-server
+  description: The Eclipse Jetty Project
+  version: 10.0.18
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/demos/embedded/pom.xml
+  detection_source: demos/embedded/pom.xml
+  last_updated_by: Lachlan
+  last_updated_on: 2020-12-02 00:10:15.000000000 Z
+- name: org.eclipse.jetty:jetty-annotations
+  description: Annotation support for deploying servlets in jetty
+  version: 10.0.18
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/jetty-osgi-boot/pom.xml
+  detection_source: apache-jstl/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2020-11-18 11:26:38.000000000 Z
+- name: org.eclipse.jetty:jetty-client
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/demos/demo-async-rest/demo-async-rest-jar/pom.xml
+  detection_source: demos/demo-async-rest/demo-async-rest-jar/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2020-09-23 18:35:19.000000000 Z
+- name: org.eclipse.jetty:jetty-deploy
+  description: Jetty deployers
+  version: 10.0.18
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/jetty-osgi-boot/pom.xml
+  detection_source: demos/embedded/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2020-09-29 16:37:22.000000000 Z
+- name: org.eclipse.jetty:jetty-http
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-client/pom.xml
+  detection_source: jetty-client/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-02 04:15:39.000000000 Z
+- name: org.eclipse.jetty:jetty-io
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-alpn/jetty-alpn-client/pom.xml
+  detection_source: jetty-alpn/jetty-alpn-client/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-05-06 21:24:40.000000000 Z
+- name: org.eclipse.jetty:jetty-jaas
+  description: Jetty JAAS support
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/demos/embedded/pom.xml
+  detection_source: demos/embedded/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2020-09-29 16:37:22.000000000 Z
+- name: org.eclipse.jetty:jetty-jmx
+  description: JMX management artifact for jetty
+  version: 10.0.18
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/jetty-osgi-boot/pom.xml
+  detection_source: demos/demo-jetty-webapp/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2023-06-05 11:37:05.000000000 Z
+- name: org.eclipse.jetty:jetty-jndi
+  description: JNDI spi impl for java namespace
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/javadoc/pom.xml
+  detection_source: javadoc/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2022-11-16 21:37:09.000000000 Z
+- name: org.eclipse.jetty:jetty-plus
+  description: Jetty JavaEE style services
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/demos/embedded/pom.xml
+  detection_source: demos/embedded/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2020-09-29 16:37:22.000000000 Z
+- name: org.eclipse.jetty:jetty-proxy
+  description: Jetty Proxy
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/demos/demo-proxy-webapp/pom.xml
+  detection_source: demos/demo-proxy-webapp/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2020-09-29 16:37:22.000000000 Z
+- name: org.eclipse.jetty:jetty-rewrite
+  description: Jetty Rewrite Handler
+  version: 10.0.18
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/javadoc/pom.xml
+  detection_source: demos/embedded/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2020-09-29 16:37:22.000000000 Z
+- name: org.eclipse.jetty:jetty-security
+  description: Jetty security infrastructure
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/demos/embedded/pom.xml
+  detection_source: demos/embedded/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2020-09-29 16:37:22.000000000 Z
+- name: org.eclipse.jetty:jetty-server
+  description: The core jetty server artifact
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/demos/demo-jetty-webapp/pom.xml
+  detection_source: demos/demo-jetty-webapp/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2023-06-05 11:37:05.000000000 Z
+- name: org.eclipse.jetty:jetty-servlet
+  description: Jetty Servlet Container
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/apache-jsp/pom.xml
+  detection_source: apache-jsp/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2020-02-24 19:20:51.000000000 Z
+- name: org.eclipse.jetty:jetty-servlets
+  description: Utility Servlets from Jetty
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/demos/demo-jetty-webapp/pom.xml
+  detection_source: demos/demo-jetty-webapp/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2023-06-05 11:37:05.000000000 Z
+- name: org.eclipse.jetty:jetty-start
+  description: The start utility
+  version: 10.0.18
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-home/pom.xml
+  detection_source: javadoc/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2022-11-16 21:37:09.000000000 Z
+- name: org.eclipse.jetty:jetty-util
+  description: Utility classes for Jetty
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/apache-jsp/pom.xml
+  detection_source: apache-jsp/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2020-02-24 19:20:51.000000000 Z
+- name: org.eclipse.jetty:jetty-util-ajax
+  description: JSON/Ajax Utility classes for Jetty
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/demos/demo-async-rest/demo-async-rest-jar/pom.xml
+  detection_source: demos/demo-async-rest/demo-async-rest-jar/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2020-09-23 18:35:19.000000000 Z
+- name: org.eclipse.jetty:jetty-webapp
+  description: Jetty web application support
+  version: 10.0.18
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/jetty-osgi-boot/pom.xml
+  detection_source: apache-jstl/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2020-11-18 11:26:38.000000000 Z
+- name: org.eclipse.jetty:jetty-xml
+  description: The jetty xml utilities
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-deploy/pom.xml
+  detection_source: jetty-deploy/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2023-10-17 11:25:01.000000000 Z
+- name: org.eclipse.platform:org.eclipse.osgi
+  description: OSGi System Bundle %systemBundle
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/jetty-osgi-boot-jsp/pom.xml
+  detection_source: jetty-osgi/jetty-osgi-boot-jsp/pom.xml
+  last_updated_by: Jan Bartel
+  last_updated_on: 2022-02-22 09:47:12.000000000 Z
+- name: org.glassfish.jaxb:jaxb-runtime
+  description: JAXB
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jaspi/pom.xml
+  detection_source: jetty-jaspi/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-05-06 21:24:40.000000000 Z
+- name: org.glassfish.web:javax.servlet.jsp.jstl
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/test-jetty-osgi/pom.xml
+  detection_source: jetty-osgi/test-jetty-osgi/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2023-09-03 11:10:41.000000000 Z
+- name: org.hamcrest:hamcrest
+  description: Core API and libraries of hamcrest matcher framework
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/tests/jetty-http-tools/pom.xml
+  detection_source: tests/jetty-http-tools/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2019-05-01 20:02:31.000000000 Z
+- name: org.hamcrest:hamcrest-core
+  description: Core Hamcrest API - deprecated
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-runner/src/it/demo-simple-webapp-runner-with-path/pom.xml
+  detection_source: jetty-runner/src/it/demo-simple-webapp-runner-with-path/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2021-04-27 00:26:33.000000000 Z
+- name: org.infinispan:infinispan-client-hotrod
+  description: Infinispan Hot Rod Client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/javadoc/pom.xml
+  detection_source: javadoc/pom.xml
+  last_updated_by: Simone Bordet
+  last_updated_on: 2021-11-29 19:09:27.000000000 Z
+- name: org.infinispan:infinispan-core
+  description: Infinispan core module
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/javadoc/pom.xml
+  detection_source: javadoc/pom.xml
+  last_updated_by: Simone Bordet
+  last_updated_on: 2021-11-29 19:09:27.000000000 Z
+- name: org.jboss.logging:jboss-logging
+  description: The JBoss Logging Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-home/pom.xml
+  detection_source: jetty-home/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2022-11-14 21:51:27.000000000 Z
+- name: org.jboss.weld.servlet:weld-servlet-core
+  description: Weld
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/tests/test-cdi/pom.xml
+  detection_source: tests/test-cdi/pom.xml
+  last_updated_by: Lachlan Roberts
+  last_updated_on: 2021-03-31 07:36:15.000000000 Z
+- name: org.junit.jupiter:junit-jupiter
+  description: Module "junit-jupiter" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-websocket/websocket-javax-tests/pom.xml
+  detection_source: jetty-websocket/websocket-javax-tests/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-05-06 21:24:40.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-api
+  description: Module "junit-jupiter-api" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/tests/test-sessions/test-sessions-common/pom.xml
+  detection_source: tests/test-sessions/test-sessions-common/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2020-09-28 18:48:46.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-maven-plugin/src/it/exclude-javax-annotation/pom.xml
+  detection_source: jetty-maven-plugin/src/it/exclude-javax-annotation/pom.xml
+  last_updated_by: Jan Bartel
+  last_updated_on: 2022-03-28 11:41:36.000000000 Z
+- name: org.junit.vintage:junit-vintage-engine
+  description: Module "junit-vintage-engine" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-jaas/pom.xml
+  detection_source: jetty-jaas/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2023-09-28 21:19:36.000000000 Z
+- name: org.mariadb.jdbc:mariadb-java-client
+  description: JDBC driver for MariaDB and MySQL
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/tests/test-distribution/pom.xml
+  detection_source: tests/test-distribution/pom.xml
+  last_updated_by: Jan Bartel
+  last_updated_on: 2023-06-29 10:56:36.000000000 Z
+- name: org.mongodb:mongo-java-driver
+  description: The MongoDB Java driver
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-nosql/pom.xml
+  detection_source: jetty-nosql/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2021-09-20 11:15:50.000000000 Z
+- name: org.openjdk.jmh:jmh-core
+  description: The jmh is a Java harness for building
+  license: GPL-3.0-only,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/tests/jetty-jmh/pom.xml
+  detection_source: tests/jetty-jmh/pom.xml
+  last_updated_by: Jan Bartel
+  last_updated_on: 2023-06-29 12:41:04.000000000 Z
+- name: org.openjdk.jmh:jmh-generator-annprocess
+  description: JMH benchmark generator, based on annotation processors
+  license: GPL-3.0-only,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/tests/jetty-jmh/pom.xml
+  detection_source: tests/jetty-jmh/pom.xml
+  last_updated_by: Jan Bartel
+  last_updated_on: 2023-06-29 12:41:04.000000000 Z
+- name: org.ops4j.pax.exam:pax-exam
+  description: In-Container Test Framework for OSGi
+  version: 4.13.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/test-jetty-osgi/pom.xml
+  detection_source: jetty-osgi/test-jetty-osgi/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-09-06 21:19:40.000000000 Z
+- name: org.ops4j.pax.exam:pax-exam-container-forked
+  description: In-Container Test Framework for OSGi
+  version: 4.13.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/test-jetty-osgi/pom.xml
+  detection_source: jetty-osgi/test-jetty-osgi/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-09-06 21:19:40.000000000 Z
+- name: org.ops4j.pax.exam:pax-exam-inject
+  description: In-Container Test Framework for OSGi
+  version: 4.13.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/test-jetty-osgi/pom.xml
+  detection_source: jetty-osgi/test-jetty-osgi/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-09-06 21:19:40.000000000 Z
+- name: org.ops4j.pax.exam:pax-exam-junit4
+  description: Pax Exam Integration testing framework for Modern Java Platforms
+  version: 4.13.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/test-jetty-osgi/pom.xml
+  detection_source: jetty-osgi/test-jetty-osgi/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-09-06 21:19:40.000000000 Z
+- name: org.ops4j.pax.exam:pax-exam-link-mvn
+  description: Pax Exam Integration testing framework for Modern Java Platforms
+  version: 4.13.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/test-jetty-osgi/pom.xml
+  detection_source: jetty-osgi/test-jetty-osgi/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-09-06 21:19:40.000000000 Z
+- name: org.ops4j.pax.tinybundles:tinybundles
+  description: Tiny Bundles is a library to create and modify adhoc bundles and other
+    OSGi resources using fluent Java API
+  version: 3.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/test-jetty-osgi/pom.xml
+  detection_source: jetty-osgi/test-jetty-osgi/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-09-06 21:19:40.000000000 Z
+- name: org.ops4j.pax.url:pax-url-aether
+  description: 'OPS4J Pax Url - aether: protocol handler'
+  version: 2.6.14
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/test-jetty-osgi/pom.xml
+  detection_source: jetty-osgi/test-jetty-osgi/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-09-06 21:19:40.000000000 Z
+- name: org.ops4j.pax.url:pax-url-wrap
+  description: 'OPS4J Pax Url - wrap: protocol handler'
+  version: 2.6.14
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/test-jetty-osgi/pom.xml
+  detection_source: jetty-osgi/test-jetty-osgi/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-09-06 21:19:40.000000000 Z
+- name: org.osgi:org.osgi.service.cm
+  description: OSGi Companion Code for org.osgi.service.cm Version 1.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/jetty-osgi-boot/pom.xml
+  detection_source: jetty-osgi/jetty-osgi-boot/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2022-10-01 23:16:22.000000000 Z
+- name: org.osgi:org.osgi.service.event
+  description: OSGi Companion Code for org.osgi.service.event Version 1.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/jetty-osgi-boot/pom.xml
+  detection_source: jetty-osgi/jetty-osgi-boot/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2022-10-01 23:16:22.000000000 Z
+- name: org.ow2.asm:asm
+  description: ASM
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-annotations/pom.xml
+  detection_source: jetty-annotations/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-02 04:15:39.000000000 Z
+- name: org.ow2.asm:asm-analysis
+  description: Static code analysis API of ASM
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-home/pom.xml
+  detection_source: jetty-home/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2022-11-14 21:51:27.000000000 Z
+- name: org.ow2.asm:asm-commons
+  description: Usefull class adapters based on ASM
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-annotations/pom.xml
+  detection_source: jetty-annotations/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-02 04:15:39.000000000 Z
+- name: org.ow2.asm:asm-tree
+  description: Tree API of ASM
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-home/pom.xml
+  detection_source: jetty-home/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2022-11-14 21:51:27.000000000 Z
+- name: org.ow2.asm:asm-util
+  description: Utilities for ASM
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-osgi/test-jetty-osgi/pom.xml
+  detection_source: jetty-osgi/test-jetty-osgi/pom.xml
+  last_updated_by: Jan Bartel
+  last_updated_on: 2022-07-06 22:11:40.000000000 Z
+- name: org.slf4j:jul-to-slf4j
+  description: JUL to SLF4J bridge
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-http-spi/pom.xml
+  detection_source: jetty-http-spi/pom.xml
+  last_updated_by: olivier lamy
+  last_updated_on: 2021-05-18 03:42:07.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/apache-jsp/pom.xml
+  detection_source: apache-jsp/pom.xml
+  last_updated_by: Joakim Erdfelt
+  last_updated_on: 2020-02-24 19:20:51.000000000 Z
+- name: org.slf4j:slf4j-simple
+  description: SLF4J Simple binding
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/apache-jstl/pom.xml
+  detection_source: apache-jstl/pom.xml
+  last_updated_by: Olivier Lamy
+  last_updated_on: 2020-11-18 11:26:38.000000000 Z
+- name: org.testcontainers:testcontainers
+  description: Isolated container management for Java code testing
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/jetty.project/blob/jetty-10.0.x/jetty-infinispan/infinispan-remote-query/pom.xml
+  detection_source: jetty-infinispan/infinispan-remote-query/pom.xml
+  last_updated_by: olivier lamy
+  last_updated_on: 2021-03-24 02:39:55.000000000 Z
